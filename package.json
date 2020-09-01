@@ -25,13 +25,16 @@
     "url": "https://github.com/pawgame/hooks/issues"
   },
   "homepage": "https://github.com/pawgame/hooks#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
-    "@types/webpack-env": "^1.15.2"
+    "@types/webpack-env": "^1.15.2",
+    "del-cli": "^3.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
