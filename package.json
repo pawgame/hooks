@@ -1,0 +1,37 @@
+{
+  "name": "@pawgame/hooks",
+  "version": "1.0.0",
+  "description": "HOOOO000ooooks &amp; CompOOO000ooooonents",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "clean": "del-cli lib",
+    "compile": "tsc --outDir lib",
+    "build": "npm run clean && npm run compile",
+    "test": "echo \"no test specified\"",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawgame/hooks.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pawgame/hooks/issues"
+  },
+  "homepage": "https://github.com/pawgame/hooks#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/webpack-env": "^1.15.2"
+  }
+}
