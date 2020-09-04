@@ -27,7 +27,8 @@
   "homepage": "https://github.com/pawgame/hooks#readme",
   "peerDependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "intersection-observer": "^0.11.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.46",
